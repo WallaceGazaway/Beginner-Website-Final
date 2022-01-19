@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>The Hollowing Pit</title>
+	<style type="text/css" media="all">@import "css/master.css";</style>
+</head>
+
+<body>
+	<div id="page_container">
+
+		<div id="top">
+		<h1>The Hollowing Pit</h1>
+		</div>
+
+		<div id="paragraph_block">
+		<p>What is the <strong>Hollowing Pit?</strong> It is a world falling into an unexplainable and seemingly irreversible state of decay, like a rotting fruit showing the pit inside. With little space for everyone to live, the people have taken to desperately forcing swathes of children into labor, going far below to find resources and, maybe, answers.</p>
+		</div>
+
+		<div id="image_map">
+			<img src="images/animation.gif" alt="map" class="map" usemap="#workmap">
+			<map name="workmap">
+				<area shape="poly" coords="0,420,95,427,332,536,519,684,652,766,743,666,735,512,210,110,1,109" alt="Surface" href="surface.html">
+				<area shape="poly" coords="12,537,201,630,459,806,641,1008,681,989,552,776,242,534,3,473" alt="GoodGarden" href="goodgarden.html">
+				<area shape="poly" coords="5,581,283,749,512,928,614,1020,635,1017,450,809,177,627,6,541" alt="Cave Hollows" href="cave.html">
+				<area shape="poly" coords="4,592,271,746,508,931,600,1019,436,1021,2,687" alt="Moping Mountains" href="mountain.html">
+				<area shape="poly" coords="6,706,422,1016,309,1018,59,818,7,783" alt="Cloud Sea" href="cloudsea.html">
+				<area shape="poly" coords="3,809,282,1018,162,1020,5,907" alt="Dry Seabed" href="seabed.html">
+				<area shape="circle" coords="15,1016,80" alt="Bloodrust Bog" href="bog.html">
+			</map>
+		</div>
+
+		<div class="dropdown">
+			<button class="dropbtn">Map of a Dying World</button>
+			<div class="dropdown-content">
+				<a href="surface.html">Surface Cities</a>
+				<a href="goodgarden.html">GoodGarden</a>
+				<a href="cave.html">Cave Hollows</a>
+				<a href="mountain.html">Moping Mountains</a>
+				<a href="cloudsea.html">Cloud Sea</a>
+				<a href="seabed.html">Dry Seabed</a>
+				<a href="bog.html">Bloodrust Bog</a>
+			</div>
+		</div>
+		<br />
+		<br />
+	</div>
+
+
+<script src"https://"https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="jQuery-rwdImageMaps-master/jquery.rwdImageMaps.min.js"></script>
+<script>
+	$(document).ready(function(e) {
+    		$('img[usemap]').rwdImageMaps();
+	});
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+body{
+	background: #000749;
+}
+
+#top{
+	width: 100%;
+	height: auto;
+	background: black;
+	color: #7d6e37;
+	text-align: center;
+	font-family: "Old English Text MT", serif;
+	//font-size: 35pt;
+	font-size: 3.5vw;
+	padding: 1pt;
+}
+
+#paragraph_block{
+	background: #7d6e37;
+	color: white;
+	text-align: center;
+	width: 100%
+	font-family: "Lucida Bright", serif;
+	//font-size: 20pt;
+	font-size: 2.5vw;
+	padding: 1pt;
+}
+
+.map{
+	max-width: 100%;
+	height: auto;
+}
+
+.dropbtn{
+	background: #7d6e37;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-family: "Old English Text MT", serif;
+	//font-size: 30pt;
+	font-size: 4vw;
+}
+
+.dropdown{
+	position: relative;
+	//display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absoulute;
+	background: black;
+	width: 100%;
+	z-index: 1;
+}
+
+.dropdown-content a{
+	color: #7d6e37;
+	text-align: center;
+	font-family: "Lucida Bright", serif;
+	//font-size: 20pt;
+	font-size: 3vw;
+	display: block;
+	padding: 1pt;
+}
+
+.dropdown-content a:hover {
+	background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}

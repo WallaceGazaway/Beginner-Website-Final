@@ -1,0 +1,116 @@
+/* This denotes the location the page is focused on */
+#top {
+	width: 100%;
+	height: auto;
+	background: black;
+	color: #7d6e37;
+	text-align: center;
+	font-family: "Old English Text MT", serif;
+	font-size: 2.2vw;
+	letter-spacing: 20pt;
+	position: relative;
+	padding: 1px;
+	border-style: solid;
+}
+
+/* This is a PNG image of a pre-typed paragraph with a stylized border */
+.paragraphpicture {
+	width: 93%;
+	//height: auto;
+	height: 60vw;
+	border-style: none none double double;
+}
+
+/* This is a JPG image of a creature or something of interest commonplace in this sector */
+.journal {
+	width: 100%;
+	height: auto;
+	border-style: solid;
+}
+
+/* The buttons that act as links to the external information about inspirations for designs and concepts */
+.external {
+	width: 60%;
+	font-size: 2.5vw;
+}
+
+/* This is a paragraph about the ecosystem, as well as a return button and a table with generalized info */
+#column1 {
+	min-width: 320px;
+	max-width: 48%;
+	height: auto;
+	float: left;
+}
+
+/* This is a column holding the JPG relating to column 1 */
+#column2 {
+	min-width: 320px;
+	max-width: 50%;
+	height: auto;
+	float: right;	
+	margin-right: 3vw;
+}
+
+h2 {
+	font-size: 3.2vw;
+	background: #7d6e37;
+	color: black;
+	text-align: center;
+	font-family: "Old English Text MT", serif;
+	//padding: 1vw;
+	letter-spacing: 5pt;
+	border-style: solid;
+}
+
+p {
+	font-family: "Lucida Bright", serif;
+	border-style: inset;
+	font-size: 15px;
+	padding: 1vw;
+	//padding-left: 0;
+	background: black;
+	color: white;
+	line-height: 25px;
+}
+
+a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 60%;
+	background: #7d6e37;
+	color: black;
+	font-family: "Old English Text MT", serif;
+	text-align: center;
+	font-size: 18pt;
+	border-style: outset;
+	align-content: center;
+}
+
+strong {
+	font-size: 20px;
+}
+table, th, td {
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	border: solid;
+}
+
+th {
+	background: black;
+	color: white;
+	font-family: "Old English Text MT", serif;
+	font-size: 3vw;
+	padding: 1vw;
+}
+
+td {
+	border: solid;
+	background: #7d6e37;
+	font-family: "Lucida Bright", serif;
+	font-size: 3vw;
+}
